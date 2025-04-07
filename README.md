@@ -33,7 +33,7 @@ Bottle — это простой и лёгкий Python-фреймворк дл�
 
 ## ⚙️ Установка и запуск
 ```bash
-git clone https://github.com/rockdukan/bottle-base.git
+git clone https://gitverse.ru/Rockdukan/bottle-base.git
 cd bottle-base
 uv venv
 uv run main.py
