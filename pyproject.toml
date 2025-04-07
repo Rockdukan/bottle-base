@@ -1,0 +1,20 @@
+[project]
+name = "bottle-base"
+version = "0.1.0"
+description = "Bottle base project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bottle>=0.13.2",
+]
+
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle
+    "F",      # pyflakes
+    "UP",     # pyupgrade
+]
