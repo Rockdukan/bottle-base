@@ -1,0 +1,45 @@
+body {
+  background: #f7f7f7 url("/static/img/background.jpg") repeat center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  background: #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  color: #484;
+}
+
+a.button {
+  background-color: #4CAF50; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.button:hover {
+  background-color: #45a049; 
+  transform: translateY(-2px);
+}
+
+a.button:active {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  transform: translateY(0); 
+}
