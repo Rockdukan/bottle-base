@@ -8,6 +8,7 @@
     <title>Bottle base template</title>
     <meta name="author" content="Rockdukan">
     <meta name="description" content="Базовый шаблон проекта на фреймворке Bottle">
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
 
 <!-- _____________________________ CSS _____________________________ -->
     <link rel="stylesheet" href="/static/css/style.css">
