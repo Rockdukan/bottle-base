@@ -23,12 +23,14 @@ Bottle — это простой и лёгкий Python-фреймворк дл�
 │   │   
 │   ├── models/
 │   ├── services/
-│   ├── static/
 │   ├── views/
 │   └── log.py
+│
+├── logs/
+├── media/
+├── static/
 ├── config.py
 ├── main.py
-├── logs/
 └── README.md
 ```
 
