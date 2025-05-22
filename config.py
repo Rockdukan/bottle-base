@@ -8,7 +8,7 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 LOG_FILE = os.path.join(LOG_DIR, "app.log")
-LOG_LEVEL = logging.INFO
+LOG_LEVEL = logging.WARNING
 LOG_BACKUP_DAYS = 7
 LOG_CONSOLE = True
 LOG_CONSOLE_COLOR = True
